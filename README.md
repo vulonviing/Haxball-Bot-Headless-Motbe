@@ -95,4 +95,4 @@ Atlamış olduğum komut olma ihtimali mevcuttur. Daha fazlası için kodlara g�
 
 ## Sonsöz
 
-Scriptin bugünkü Haxball topluluğuna yararlı olmasını ve botlara yeni fonksiyonlar sunmasını diliyorum. Bütün Haxball topluluğu, var olun,** and many thanks to Basro for creating Haxball, Haxball community and beatiful stories for us.**
+Scriptin bugünkü Haxball topluluğuna yararlı olmasını ve botlara yeni fonksiyonlar sunmasını diliyorum. Bütün Haxball topluluğu, var olun, **and many thanks to Basro for creating Haxball, Haxball community and beatiful stories for us.**
