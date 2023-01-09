@@ -1,128 +1,98 @@
-# HaxBot
+# 🏫 Mötbe 🎓 Kliması
 
-## Description
+## **Önsöz**
 
-This project has been designed to help people who do not know how to code to be able to host a room with multiple options.
+2019 yılında başlatmış olduğum Mötbe projesi Haxball adlı oyunda Real Soccer adı verilen gerçek futbol kurallarına uygun oyun sistemini seven kullanıcıları bir araya getirmeye yönelik bir işti. Mötbe Kliması adını verdiğim bu bot ise oyunun kurallarını en efektif bir şekilde oyuncuya yansıtmayı ve oyuncunun oyun deneyimini geliştirecek birçok fonksiyonu da sunmayı amaç edinmiş bir scripttir.
 
-This is a new version, which capitalizes on the latest Haxball update that notably introduced the `noPlayer` option.
+Mötbe adını verdiğim Real Soccer severlerden oluşan oluşum son derece başarılı oldu. **Günlük yaklaşık 100'ün ve aylık olarak yaklaşık 2000 oyuncunun oyun odalarımıza giriş yapmasının yanı sıra yaklaşık 2000 kişilik de dev bir Discord grubumuz oluştu.**
 
-The files of the last version are still accessible, along with the README file in the OLD folder. Their use is discouraged.
+Zaman içerisinde başlatmış olduğum bu proje kendi sadık oyuncularını toparladı ve bu oyuncular yönetim kadrosu olarak Mötbe topluluğunun kemik kitlesi oldular. Benim de dahil olduğum yönetim kadromuz yaklaşık 8-10 kişilikti.
 
-## How to use
+Oluşum, kuruluşundan yaklaşık 5-6 ay sonra yönetim kadrosunun ortak fikriyle sonlandırıldı. Sonlandırılma nedeni hem oyuna olan açlığımızın bitmesi, hem iş ve eğitim hayatımızın yoğun fikstüründe hızla büyüyen 2000 kişilik oyuncu grubunu idare etmemizin gittikçe zorlaşmasıydı.
 
-Download the project or the script you want to use on your computer.
+Tamamen gönüllü olarak yürüttüğümüz bu projede her gün odalarımıza gelen yüzlerce oyuncuya ve Discord grubumuza katılan binlerce kişiye 2019 yaz aylarını mükemmel geçirmemi sağladıkları için hiç teşekkür etme fırsatım olmadı. **Topluluğa yaptıkları katkıdan ve oyun sistemimize verdikleri şanstan ötürü aradan geçen üç sene sonra bütün topluluğumuza teşekkürü bir borç bilirim.**
 
-For editing the code, I highly recommand the use of Visual Studio Code as it is a very complete IDE. You will need it to change the room options.
+Topluluğun büyümesinde ve botun gelişmesinde emeği geçen Mafiaso, BeetLeguesse (Emirkaan Sait), GooSe (Egecan Eren), Barış Toper, Carillo (Hidayet), Slazka (Okan), Ric7 (Özgür), Sadık, Fitbolcu, Ceyhan, Leviosa (Umut) ve Hi'ye şükranlarımı sunuyorum.
 
-The options are at the top of the code, and they are numerous. For example, you can set the name of the room, add a headless token, change the default stadiums, edit the team size for the public room, etc.
+Bunun yanı sıra adını saymayı unuttuğum ya da atladığım bütün kemik oyuncu topluluğumuza yeniden teşekkürler. Siz olmasaydınız iki bin satırlık bu botu sıfır kodlama bilgisi ile geliştirmeye ve oyun deneyimimizi mükemmele yaklaştırmaya hiç uğraşmazdım...
 
-## Running the script
+## **Bot Üzerine - Mötbe Kliması**
 
-### Local machine:
+Topluluğumuzun bu denli hızlı büyümesindeki en büyük etken şüphesiz ki sunduğumuz oyun deneyiminin mükemmele yakın olmasıydı. Mükemmele yakın olan oyun deneyimini de hazırlamış olduğum bu bota ve oyun yönetimlerini ahlaklı bir şekilde yapan yönetim ekibimize borçluyum. 
 
-1. Open the [Haxball headless page](https://www.haxball.com/headless)
-2. Open devtools using F12 and select the console
-3. Copy and paste the content of the script of your choice
-4. If you haven't added a headless token from the [token page](https://www.haxball.com/headlesstoken), complete the captcha
-5. The room is now open, press Ctrl + Click to open it (keep the headless room tab open)
+**Şu anda görmüş olduğunuz bu bot 2019 yılı özelinde bütün Haxball oyuncu topluluğunda bulunan en efektif ve en verimli oyun scriptidir. Öyle ki bu scripte eklemiş olduğum bazı fonksiyonlar bugünün yeni nesil botlarında bile hâlâ mevcut değil.** İlgili dönemde sadece güvendiğim kişilere verdiğim ve sakladığım bu botu artık tamamen açıyorum.
 
+Haxball, Haxe programlama dilini temel almış bir oyundur. Java temelli düzenlemelerle Headless üzerinden oyun içerisinde oda açmanız ve bu odaları yaptığınız script üzerinden farklı fonksiyonlarla yönetmeniz, farklı özellikler kazandırmanız mümkündür. 
 
-### VPS:
+**Lütfen botun kodlamasını dikkate alırken benim Java hakkında hiçbir fikrim olmadığını bilin. Ben bu botu yaptığımda tamamen kodda gerçekleştirmiş olduğumu deneme yanılma yöntemini ve GitHub, Stackoverflow gibi platformlar üzerinden bulmuş olduğum örnek kodlamaları kullandım.** Botu yaparken bir tutorial açıp izlemişliğim bile yoktur ki bugün de hâlâ Java'ya hakim değilim. 
 
-My recommandation for when you are using a server is to use Ubuntu 18.04 as it is both cheaper and more powerful for hosting rooms.
-If you are not familiar with Linux, you can always use Windows and the same method as for a local machine. For Ubuntu, use the following method:
+Botun temeli Wazarr94'ün yazmış olduğu Headless Bot'a dayanmaktır. **Thanks a lot to Wazarr94 for sharing source of his Headless Bot.**
 
-1. Install haxroomie by entering in the terminal:
-```bash
-bash <(curl -s https://raw.githubusercontent.com/morko/haxroomie/master/scripts/install-haxroomie-cli-debian.sh)
-```
-Keep the default options and enter a password when prompted
+## **Fonksiyonlar**
 
-2. Run haxroomie once by entering haxroomie in the terminal and immediately exit by pressing `q`
+1. v6 harita switch opsiyonu. (6'ya 6 oynanan 12 kişilik harita.)
+2. v6 kanatlı harita switch opsiyonu. (Normal şartlarda 1-3-6-8-10-9 olan dizilimi 1-3-6-7-11-9 olarak kanatlı tipe dönüştürür.)
+3. v7 harita switch opsiyonu. (7'ye 7 oynanan 14 kişilik harita.)
+4. Özelleştirilmiş duyuru opsiyonu.
+5. Bütün chati susturma ve yeniden açma opsiyonu.
+6. Küfür filtresi.
+7. Oda çökertme BUG'ını engelleme filtresi. (O günlerde bütün odaların çökmesini sağlayan baş belası bir BUG'dı. Günümüzde bu BUG hâlâ devam ediyor mu bilmiyorum.)
+8. Fısıldama opsiyonu. (Oyuncuların birbirleriyle özel olarak konuşmasını sağlar.)
+9. v6 ve v7 için özel hazırlanmış dizilim mapleri opsiyonları.
+10. Kaptan opsiyonu. (Takım kaptanı seçimi ve kaptanın oyuncuları istediği gibi çekebilmesi.)
+11. Gelişmiş dizilim sistemine sahip mapler.
+12. Gelişmiş ivmeleme ve top hızı ayarlamalarına sahip mapler.
+13. Şut, aut ve korner imkânı tanıyan yay sistemi. (Şu anki botlarda kod içerisinde oto verilen bir durum. 2019 yıllarında oyun kodlarına bu sistem entegre edilmediği için botumda mevcut değil.)
+14. Aut ve korner atışlarına özel kurallar ekleyen mapler.
+15. Kimlik doğrulama sistemi (Auth ve conn id'leri baz alan bu sistem mükemmele yakın çalışmaktadır. Bot içerisinde göreceğiniz auth ve conn'lar kişilerin ip ve tarayıcı keylerinin ortaya çıkmaması adına tarafımca değiştirildi.)
+16. Oyuncuların auth ve conn id'lerini görme, loga yansıtma.
+17. Aynı bilgisayar üzerinden birden fazla kullanıcı ile giriş olursa uyarı sistemi.
+18. Kara liste sistemi. (Oyun içerisinde ciddi küfür ve hakaret edenler topluluğumuzdan bu yöntem ile tamamen banlanıyorlardı.)
+19. Taç sistemi. (Günümüzde Haxball'ın sunduğu imkânların artması doğrultusunda daha modern ve verimli hale gelmiş durumdadır.)
+20. Gol, taç, aut, korner ve benzeri duyuruların sistemleri.
+21. Gol halinde forma ve top değişimi.
+22. Eşitlik durumları adına hile dedektörlü penaltı sistemi.
+23. Kilitlenmiş mapler. (Maplerin save edilmesi mümkün değildir. An itibariyle public olarak açtığım için bu özelliğin pek bir sürprizi kalmadı.)
+24. Afk tespiti ve banlama sistemi.
+25. Bot üzerinden ban sistemi.
+26. Fikstür sistemi. (Turnuvalarda kimin kaç gol attığını gösteren gol krallığı sistemi.)
+27. Dolu oda bildirimleri.
+28. Oyuncu ve top boyutu değiştirme sistemi.
+29. Admin ve süperadmin sistemi. (Odanın asıl yöneticileri süperadmin tagını alarak adminlik tagı alan yöneticilerin kendilerini atma ve sistemi ele geçirme şansını bloke ediyordu. Bir nevi gelişmiş bir güvenlik sistemi.)
+30. Oda kilitleme ve açma sistemi.
+31. Spam filtresi. (5 kademeli olarak saniyeleri ayarlanabiiyor.)
+32. Mevki, aut ve taç kural hatırlatmaları.
+33. Çeşitli fonksiyonlara (fısıldama, spam, susturma ve benzeri) tam kontrol. Fonksiyonları açabilme ve kapatabilme yetkisi.
+34. Big, small ve benzeri haritalara switch opsiyonu.
 
-3. Upload your script to the VPS, and remember its path
+Bütün bunların yanı sıra hatırlamadığım, kod içerisinde gömülü olarak bulabileceğiniz farklı fonksiyonlar da bulunabilir.
 
-4. Enter:
-```bash
-nano /home/haxroomie/.haxroomie/config.js
-```
-and press Ctrl + K until the file is empty. Then paste the following script:
+## **Komutlar**
 
-```js
-let config = {
-    room1: {
-        autoStart: true,
-        roomName: 'YOUR ROOM NAME HERE',
-        maxPlayers: 16,
-        public: true,
-        noPlayer: true,
-        token: 'YOUR TOKEN HERE',
-        roomScript: '/path/file/Haxbot_public.js',
-    },
-};
+**-solo :** Benim kullandığım süperadmin komutu. Oyunun en üst düzey admin komutudur. Diğer yöneticilerimizin de şahsi admin komutları bulunmaktadır, kodlara gömülü olarak onlarınkileri de bulabilirsiniz.<br />
+**-diz :** v6 dizilim haritasını açar. <br />
+**-dizkanat :** v6 kanatlı dizilim haritasını açar. <br />
+**-real :** v6 mapini açar.<br />
+**-realyay :** yaylı v6 mapini açar.<br />
+**-realkanat :** kanatlı v6 mapini açar.<br />
+**-pen :** penaltı mapini açar.<br />
+**-classic, -big, -huge :** adı geçen varsayılan mapleri açar.<br />
+**-realv7 :** v7 mapini açar.<br />
+**-dizv7 :** v7 dizilim haritasını açar.<br />
+**-slowmode2, -slowmode5, -slowmode10, -slowmode20, -slowmode0 :** verilen sayı kadar saniyelik slowmode açar. 0 komutu 0 saniyedir ve dolayısıyla slowmode'u kapatır.
+**-susun :** chati susturur.<br />
+**-konuşun :** susturmayı kaldırır.<br />
+**-spam0, -spam1 :** 0 spam filtresini kapatır, 1 açar.<br />
+**-whisper0, -whisper1 :** 0 fısıldama özelliğini kapatır, 1 açar.<br />
+**-size0, -size1 :** 0 boyut özelliğini kapatır, 1 açar.<br />
+**-kaptan0 :** kaptanları temizler.<br />
+**-korner, -aut, -taç, -bigbrother, -v7, -kanat, -mevki:** adı geçen kurallara yönelik duyurular yapar.<br />
+**-kilitle, -kilidiaç :** odayı kilitler ve açar.<br />
+**-affet :** odadan banlanan herkesin banını kaldırır, fakat bu blackliste alınanlar için dahil değildir. blacklistin manuel olarak kaldırılması gerekir.<br />
+**-komutlar :** komutları sıralar.<br />
 
-module.exports = config;
-```
+Atlamış olduğum komut olma ihtimali mevcuttur. Daha fazlası için kodlara göz atabilirsiniz.
 
-Don't forget to change the roomName, maxPlayers, public, token and roomScript options accordingly.
+## Sonsöz
 
-Then, press Ctrl + X, Enter and Enter to save the file.
-
-5. Enter haxroomie in the terminal to launch the room. Enter min to minimize the process and close the terminal. Your room is open.
-
-For more details about haxroomie, check out their website [here](https://morko.github.io/haxroomie/tutorial-haxroomie-cli-config.html).
-
-## Functionalities
-
-There are 2 files in this repository, and they have the same core of functionalities, which are the following:
-
-- Advanced statistics
-- Discord integration
-- Team chat and player chat
-- Goal notification with shot speed
-- Auto game recording
-- Admin system
-- Ban system
-
-and much more!
-
-To discover all the features of the bot, use the command `!help` to check all commands. To go into the details of a command, type `!help <command>`.
-
-### Versions
-
-There are 2 files, based on whether you want your room to be public or not.
-
-The private file is when there are no restrictions set in place and lets admins do everything.
-
-For the public version, the bot handles setting up the teams correctly, and captains are able to pick their teams thanks to the choosing system, which remained the same as in the previous version.
-
-## Personalisation
-
-### File
-
-To personalise the file, there are multiple steps to follow.
-
-First, you are going to need the most obvious details, such as the room name, the number of players in the room, or the fact that the room is public or not. If your room isn't public, you can set maxPlayers at 40.
-
-If you need to translate, search for `room.sendAnnouncement` in the file, and modify the text that follows in your language. For an accurate translation, I recommend using [DeepL](https://www.deepl.com).
-
-### Link to Discord
-
-Here are the steps to follow to link your room to Discord. It will give you the logs of your room and match reports for all matches played in your room.
-
-1. Create your Discord server or use one where you have admin rights.
-2. Create a log channel and a game channel.
-3. For each channel, create a [webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) and copy their links.
-4. Replace `roomWebhook` by the webhook link of your log channel.
-5. Replace `gameWebhook` by the webhook link of your game channel.
-6. You have linked your room with Discord!
-
-Once everything is setup, you will be able to check everything that happens in your room, as well as beautiful reports of all games played.
-
-## Feedback
-
-If you encounter any bug while using the bot, please file an issue with the complete console error message. Any incomplete issue will not be addressed.
-
-Feel free to leave any suggestions in the Issues tab as well, and I will try to respond to them if I have time to spend on the project.
-
-If you enjoy the bot, consider giving it a star to show your appreciation.
+Scriptin bugünkü Haxball topluluğuna yararlı olmasını ve botlara yeni fonksiyonlar sunmasını diliyorum. Bütün Haxball topluluğu, var olun,** and many thanks to Basro for creating Haxball, Haxball community and beatiful stories for us.**
