@@ -10,15 +10,15 @@ Zaman içerisinde başlatmış olduğum bu proje kendi sadık oyuncularını top
 
 Oluşum, kuruluşundan yaklaşık 5-6 ay sonra yönetim kadrosunun ortak fikriyle sonlandırıldı. Sonlandırılma nedeni hem oyuna olan açlığımızın bitmesi, hem iş ve eğitim hayatımızın yoğun fikstüründe hızla büyüyen 2000 kişilik oyuncu grubunu idare etmemizin gittikçe zorlaşmasıydı.
 
-Tamamen gönüllü olarak yürüttüğümüz bu projede her gün odalarımıza gelen yüzlerce oyuncuya ve Discord grubumuza katılan binlerce kişiye 2019 yaz aylarını mükemmel geçirmemi sağladıkları için hiç teşekkür etme fırsatım olmadı. **Topluluğa yaptıkları katkıdan ve oyun sistemimize verdikleri şanstan ötürü aradan geçen üç sene sonra bütün topluluğumuza teşekkürü bir borç bilirim.**
+Tamamen gönüllü olarak yürüttüğümüz bu projede her gün odalarımıza gelen yüzlerce oyuncuya ve Discord grubumuza katılan binlerce kişiye hiç teşekkür etme fırsatım olmadı. **Topluluğa yaptıkları katkıdan ve oyun sistemimize verdikleri şanstan ötürü aradan geçen üç sene sonra bütün topluluğumuza teşekkürü bir borç bilirim.**
 
 Topluluğun büyümesinde ve botun gelişmesinde emeği geçen Mafiaso, BeetLeguesse (Emirkaan Sait), GooSe (Egecan Eren), Barış Toper, Carillo (Hidayet), Slazka (Okan), Ric7 (Özgür), Sadık, Fitbolcu, Ceyhan, Leviosa (Umut) ve Hi'ye şükranlarımı sunuyorum.
 
-Bunun yanı sıra adını saymayı unuttuğum ya da atladığım bütün kemik oyuncu topluluğumuza yeniden teşekkürler. Siz olmasaydınız iki bin satırlık bu botu sıfır kodlama bilgisi ile geliştirmeye ve oyun deneyimimizi mükemmele yaklaştırmaya hiç uğraşmazdım...
+Bunun yanı sıra adını saymayı unuttuğum ya da atladığım bütün kemik oyuncu topluluğumuza yeniden teşekkürler.
 
 ## **Bot Üzerine - Mötbe Kliması**
 
-Topluluğumuzun bu denli hızlı büyümesindeki en büyük etken şüphesiz ki sunduğumuz oyun deneyiminin mükemmele yakın olmasıydı. Mükemmele yakın olan oyun deneyimini de hazırlamış olduğum bu bota ve oyun yönetimlerini ahlaklı bir şekilde yapan yönetim ekibimize borçluyum. 
+Topluluğumuzun bu denli hızlı büyümesindeki en büyük etken şüphesiz ki sunduğumuz oyun deneyimiydi. Oyun deneyimini de hazırlamış olduğum bu bota ve oyun yönetimlerini ahlaklı bir şekilde yapan yönetim ekibimize borçluyum. 
 
 **Şu anda görmüş olduğunuz bu bot 2019 yılı özelinde bütün Haxball oyuncu topluluğunda bulunan en efektif ve en verimli oyun scriptidir. Öyle ki bu scripte eklemiş olduğum bazı fonksiyonlar bugünün yeni nesil botlarında bile hâlâ mevcut değil.** İlgili dönemde sadece güvendiğim kişilere verdiğim ve sakladığım bu botu artık tamamen açıyorum.
 
