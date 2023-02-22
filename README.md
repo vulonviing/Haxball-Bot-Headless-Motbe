@@ -12,8 +12,6 @@ Oluşum, kuruluşundan yaklaşık 5-6 ay sonra yönetim kadrosunun ortak fikriyl
 
 Tamamen gönüllü olarak yürüttüğümüz bu projede her gün odalarımıza gelen yüzlerce oyuncuya ve Discord grubumuza katılan binlerce kişiye hiç teşekkür etme fırsatım olmadı. **Topluluğa yaptıkları katkıdan ve oyun sistemimize verdikleri şanstan ötürü aradan geçen üç sene sonra bütün topluluğumuza teşekkürü bir borç bilirim.**
 
-Topluluğun büyümesinde ve botun gelişmesinde emeği geçen Mafiaso, BeetLeguesse (Emirkaan Sait), GooSe (Egecan Eren), Barış Toper, Carillo (Hidayet), Slazka (Okan), Ric7 (Özgür), Sadık, Fitbolcu, Ceyhan, Leviosa (Umut) ve Hi'ye şükranlarımı sunuyorum.
-
 Bunun yanı sıra adını saymayı unuttuğum ya da atladığım bütün kemik oyuncu topluluğumuza yeniden teşekkürler.
 
 ## **Bot Üzerine - Mötbe Kliması**
